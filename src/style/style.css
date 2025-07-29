@@ -85,14 +85,6 @@ body {
     padding: 50px;    
 }
 
-img {
-  transition: transform 0.3s ease;
-}
-
-img:active {
-  transform: scale(1.2);
-}
-
 .text{
     max-width: 300px;
 }
