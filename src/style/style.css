@@ -85,7 +85,7 @@ body {
     padding: 50px;    
 }
 
-.img_post:active {
+img:active {
   transform: scale(1.2);
 }
 
