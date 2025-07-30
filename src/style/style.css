@@ -34,7 +34,7 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    border: 2px solid;
+    border: 5px solid;
     border-color: linear-gradient(#e66465, #9198e5);
 }
 
