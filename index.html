@@ -21,12 +21,12 @@
             </div>            
             <div class="hr-pointed"></div>
             <div class="link">
-                <a href="">About</a>
-                <a href="">Contact</a>
-                <a href="">latest</a>
+                <a href="#About">About</a>
+                <a href="#contacts">Contacts</a>
+                <a href="#posts">latest</a>
             </div>
             <div class="hr-pointed"></div>
-            <div class="about">
+            <div id="about">
                 <h1>About me</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi explicabo natus commodi. Possimus alias doloremque corrupti ab eaque qui placeat delectus, ipsam culpa, ullam quisquam sed magnam eos omnis officiis!</p>
                 <br>
@@ -35,29 +35,8 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquam, eveniet facere aspernatur enim maxime? Harum ab fugit voluptatem autem provident, maiores dignissimos accusamus alias et nihil sit nesciunt dolor.</p>
             </div>
             <div class="hr-pointed"></div>
-                <div class="contacts">
-                    <h1>Contacts me:</h1>
-                    <p>mail</p><a href="">mail</a>
-                    <p>x</p><a href="">x</a>
-                    <p>Facebook</p><a href="">Facebook</a>
-                    <p></p><a href=""></a>
-                    <p></p><a href=""></a>
-                </div>
-            <div class="hr-pointed"></div>
-            <div class="posts">
-                <!---------------------
-                <div class="post">
-                    <div class="img">
-                        <img class="img_post" src="" alt="foto">
-                        <p></p>
-                    </div>
-                    <div class="text">
-                        <h1></h1>
-                        <p></p>
-                    </div>
-                </div>                                
-                ---------------------->
-                <!-------------------------->
+            <div id="posts">
+                <!------->
                 <div class="post">
                     <div class="img">
                         <img class="img_post" src="/src/img/post_foto/foto3.jpg" alt="foto">
@@ -70,7 +49,7 @@
                         Один из таких принцыпов это БЭМ, методалогия создания классов и подклассов - это важнейший этап верстки который помогает упростить работу с сайтом.</p>
                     </div>
                 </div>                                
-                <!-------------------------->
+                <!---->
                 <div class="post">
                     <div class="img">
                         <img class="img_post" src="/src/img/post_foto/foto2.jpg" alt="foto">
@@ -82,8 +61,8 @@
                             Волшебный мир стилей моментально затянул меня, я видел в нем безграничные возможности и начал прожигать свое время на бесконечные эксперементы...</p>
                     </div>
                 </div>
-                <!--------------------------------->
-                <!--------------------------------->
+                <!--------->
+                <!--------->
                 <div class="post">
                     <div class="img">
                         <img class="img_post" src="/src/img/post_foto/foto1.jpg" alt="foto">
@@ -94,9 +73,24 @@
                         <p>В этом проекте я учился базовой верстке с помощью HTML тегов и атрибутов. данный проект я дела в рамках курса Udemy.</p>
                     </div>
                 </div>
-                <!--------------------------------->
+                <!--------->
             </div>
-            <div class="hr-pointed"></div>            
+            <div class="hr-pointed"></div>
+            <div id="contacts">
+                <h1>Contacts me:</h1>
+                <div class="contacts_inner">
+                    <p>mail</p><a href="">mail</a>
+                </div>                
+                <div class="contacts_inner">
+                    <p>x</p><a href="">x</a>
+                </div>                
+                <div class="contacts_inner">
+                    <p>Facebook</p><a href="">Facebook</a>
+                </div>                
+                <div class="contacts_inner">
+                    <p>Github</p><a href="">Github</a>
+                 </div>
+            </div>            
         </div>
     </section>
 </body>

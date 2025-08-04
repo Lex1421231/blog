@@ -58,15 +58,24 @@ body {
   border: none;
 }
 
-.about{
+#about{
     text-align: start;
 }
 
-.contacts{
-    align-items: start;
+#contacts{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
 }
 
-.posts{
+.contacts_inner{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#posts{
     display: flex;
     flex-direction: column;
 }
