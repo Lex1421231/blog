@@ -43,32 +43,18 @@ body {
     border-radius: 100%;
 }
 
-.btn{
+.link{
     display: flex;
-    margin-top: 50px;
-    height: 50px;
-    width: 200px;
-    border: 2px solid rgb(0, 0, 0);
-    text-decoration: none;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-    transition: .2s linear;
-    background: #ffffff00;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.btn:hover {
-    -webkit-transform: rotateZ(5deg);
-    -ms-transform: rotateZ(5deg);
-    transform: rotateZ(5deg);
+    gap: 30px;
+    align-items: center;    
 }
 
 .hr-pointed {
-  margin-top: 50px; 
+  margin-top: 20px;
+  margin-bottom: 20px; 
   width: 60%; 
   height: 1px;
-  background: linear-gradient(to right, transparent 10%, #000 50%, transparent 90%);
+  background: linear-gradient(to right, transparent 10%, #888888 50%, transparent 90%);
   border: none;
 }
 
@@ -110,4 +96,9 @@ body {
 .name_text{
     padding-left: 0px;
 }
+
+.hr-pointed { 
+  width: 100%; 
+}
+
 }
