@@ -58,6 +58,14 @@ body {
   border: none;
 }
 
+.about{
+    text-align: start;
+}
+
+.contacts{
+    align-items: start;
+}
+
 .posts{
     display: flex;
     flex-direction: column;
