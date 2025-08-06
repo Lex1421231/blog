@@ -60,6 +60,7 @@ body {
 
 #about{
     text-align: start;
+    max-width: 1280px;    
 }
 
 #contacts{    
@@ -78,6 +79,7 @@ body {
 #posts{
     display: flex;
     flex-direction: column;
+    max-width: 1280px;
 }
 
 .post{
@@ -99,12 +101,18 @@ body {
 }
 
 @media (max-width: 960px) {
-    .post{
+    
+.post{
     display: flex;
     margin-top: 50px;
     flex-direction: column;
     max-width: 1920px;    
-}    
+} 
+
+.text{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 .name {
     flex-direction: column;
