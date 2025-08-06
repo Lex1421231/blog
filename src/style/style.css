@@ -108,7 +108,7 @@ body {
   height: 50px;
   border-radius: 50%;
   border: none;
-  background: #ffffff00;
+  background: #ffffff83;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
@@ -121,7 +121,7 @@ body {
 }
 
 #backToTopBtn:hover {
-  background: rgba(0, 87, 179, 0);
+  background: #ffffff83;
 }
 
 @media (max-width: 960px) {
